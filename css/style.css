@@ -8,7 +8,13 @@ body{
 -o-background-size:cover;
 }
 
-
+@media (max-width:768px) {
+  body {
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+}
 
 .custom-search-input {
   border: none;
@@ -81,4 +87,16 @@ h1{
 
 footer{
   margin-top: 100px;
+}
+
+.btn-menu:hover{
+  box-shadow: 0 0 11px slategrey;
+  border-radius: 15px;
+}
+
+@media (max-width:768px) {
+  .col{
+    width: 168px;
+    height: 112px;
+  }
 }
