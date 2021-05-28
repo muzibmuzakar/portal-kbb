@@ -95,7 +95,7 @@ footer{
 }
 
 @media (max-width:768px) {
-  .col{
+  .btn{
     width: 168px;
     height: 112px;
   }
