@@ -1,12 +1,3 @@
-/* .container-fluid {
-  width: 100%;
-  height: 2160px;
-  background: url(/img/Untitled-1-01.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
 
 body{
   background-image: url("../img/bg-01.png");
@@ -72,12 +63,12 @@ body{
 }
 
 h1{
-  font-family: 'Open Sans', sans-serif;
-  color: #002714;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #727270;
   font-size: 2.5rem;
   font-weight: 700;
   margin-top: 5rem;
-  border-bottom: 5px solid #002714;
+  border-bottom: 5px solid #727270;
   border-radius: 5px;
   display: inline-block;
   padding-bottom: 10px;
@@ -86,4 +77,8 @@ h1{
 .card{
   background-color: #dcdcdc;
   border-radius: 20px;
+}
+
+footer{
+  margin-top: 100px;
 }
