@@ -100,3 +100,29 @@ footer{
     height: 112px;
   }
 }
+
+body.modal-open {
+  overflow: visible;
+}
+
+.search{
+  display: none;
+}
+
+@media (max-width:768px) {
+  .search{
+    display: block;
+    color: black;
+  margin-right: 30px;
+  margin-top: -15px;
+  }
+  .header{
+    display: none;
+  }
+  .heading{
+    margin-top: -60px;
+  }
+  footer{
+    margin-top: 10px;
+  }
+}
