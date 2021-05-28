@@ -68,7 +68,7 @@ body{
   }
 }
 
-h1{
+.heading p{
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: #727270;
   font-size: 2.5rem;
@@ -121,6 +121,9 @@ body.modal-open {
   }
   .heading{
     margin-top: -60px;
+  }
+  .heading p{
+    font-size: 25px;
   }
   footer{
     margin-top: 10px;
