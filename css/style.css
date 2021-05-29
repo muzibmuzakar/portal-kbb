@@ -87,7 +87,6 @@ body{
 
 footer{
   margin-top: 100px;
-  position: fixed;
   left: 0;
   bottom: 0;
 }
@@ -130,5 +129,13 @@ body.modal-open {
   }
   footer{
     margin-top: 10px;
+    position: fixed;
   }
+  .header-mobile{
+    display: block;
+  }
+}
+
+.header-mobile {
+  display: none;
 }
