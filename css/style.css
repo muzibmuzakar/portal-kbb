@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 body{
   background-image: url("../img/bg-01.png");
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@ body{
 }
 
 .heading p{
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'Open Sans', sans-serif;
   color: #727270;
   font-size: 2.5rem;
   font-weight: 700;
