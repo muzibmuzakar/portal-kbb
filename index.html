@@ -145,19 +145,40 @@
 
         <!-- modal -->
         <!-- Modal -->
-        <div class="modal animate__animated animate__pulse animate__slow" id="modalProfile" tabindex="-1" aria-labelledby="modalProfileLabel" aria-hidden="true">
+        <div class="modal fade" id="modalProfile" tabindex="-1" aria-labelledby="modalProfileLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalProfileLabel">Modal title</h5>
+                        <h5 class="modal-title" id="modalProfileLabel">Profil Daerah</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <div class="row row-cols-1 row-cols-md-4 g-4 d-flex justify-content-center">
+                            <!-- btn Website -->
+                            <div class="col btn">
+                                <a href="#">
+                                    <img src="img/button-web-01.svg" class="btn-menu" alt="">
+                                </a>
+                            </div>
+                            <!-- btn Profil wilayah -->
+                            <div class="col btn">
+                                <a>
+                                    <img src="img/button-profile-01.svg" class="btn-menu" data-bs-toggle="modal" data-bs-target="#modalProfile" alt="">
+                                </a>
+                            </div>
+                            <!-- btn Sarana prasarana -->
+                            <div class="col btn">
+                                <a href="#">
+                                    <img src="img/button-sarana-01.svg" class="btn-menu" alt="">
+                                </a>
+                            </div>
+                            <!-- btn berita -->
+                            <div class="col btn">
+                                <a href="#">
+                                    <img src="img/button-news-01.svg" class="btn-menu" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
