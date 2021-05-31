@@ -106,7 +106,7 @@
                     <!-- btn Sarana prasarana -->
                     <div class="col btn">
                         <a href="#">
-                            <img src="img/icon button/button-sarana-01.svg" class="btn-menu" alt="">
+                            <img src="img/icon button/button-sarana-01.svg" class="btn-menu" data-bs-toggle="modal" data-bs-target="#modalSaranaPrasarana" alt="">
                         </a>
                     </div>
                     <!-- btn berita -->
@@ -144,8 +144,42 @@
         </div>
 
         <!-- modal -->
-        <!-- Modal -->
+        <!-- Modal Profil-->
         <div class="modal fade" id="modalProfile" tabindex="-1" aria-labelledby="modalProfileLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <!-- modal profil -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalProfileLabel">Profil Daerah</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row row-cols-1 row-cols-md-4 g-4 d-flex justify-content-center">
+                            <!-- btn Website -->
+                            <div class="col btn">
+                                <a href="#">
+                                    <img src="img/icon button/button-sejarah-09.svg" class="btn-menu" alt="">
+                                </a>
+                            </div>
+                            <!-- btn Profil wilayah -->
+                            <div class="col btn">
+                                <a>
+                                    <img src="img/icon button/button-visimisi-10.svg" class="btn-menu" data-bs-toggle="modal" data-bs-target="#modalProfile" alt="">
+                                </a>
+                            </div>
+                            <!-- btn Sarana prasarana -->
+                            <div class="col btn">
+                                <a href="#">
+                                    <img src="img/icon button/button-makna-logo-11.svg" class="btn-menu" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Profil-->
+        <div class="modal fade" id="modalSaranaPrasarana" tabindex="-1" aria-labelledby="modalProfileLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered">
                 <!-- modal profil -->
                 <div class="modal-content">
